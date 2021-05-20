@@ -1,0 +1,33 @@
+{
+  "name": "hwp-bus",
+  "version": "0.1.0",
+  "description": "Busdriver backend for HWP",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm-registry.babbage.systems/"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p2ppsr/hwp-bus.git"
+  },
+  "author": "Peer-to-peer Privacy Systems Research, LLC",
+  "license": "Open BSV License",
+  "bugs": {
+    "url": "https://github.com/p2ppsr/hwp-bus/issues"
+  },
+  "homepage": "https://github.com/p2ppsr/hwp-bus#readme",
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "nodemon": "^2.0.5",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "@cwi/busdriver": "^0.1.1",
+    "dotenv": "^8.2.0"
+  }
+}
